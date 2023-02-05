@@ -1,7 +1,16 @@
 {
   "name": "nextjs-boilerplate",
+  "author": "Matthew Cremer",
+  "description": "Nextjs boilerplate with typescript, eslint, and prettier",
   "version": "0.1.0",
   "private": true,
+  "license" : "MIT",
+  "homepage": "YOUR_GIT_REPO_URL",
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
