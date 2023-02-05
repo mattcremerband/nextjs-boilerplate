@@ -4,10 +4,10 @@
   "description": "Nextjs boilerplate with typescript, eslint, and prettier",
   "version": "0.1.0",
   "private": true,
-  "license" : "MIT",
-  "homepage": "YOUR_GIT_REPO_URL",
+  "license": "MIT",
+  "homepage": "https://github.com/mattcremerband",
   "engines": {
-    "node": ">=14.0.0",
+    "node": ">=18.0.0",
     "yarn": ">=1.22.0",
     "npm": "please-use-yarn"
   },
@@ -15,7 +15,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "next": "13.1.6",
@@ -28,6 +29,7 @@
     "@types/react-dom": "18.0.10",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
+    "prettier": "^2.8.3",
     "typescript": "4.9.5"
   }
 }
