@@ -4,5 +4,13 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.organizeImports": true
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#3A2A21",
+    "titleBar.activeBackground": "#513B2F",
+    "titleBar.activeForeground": "#FBF9F8"
   }
 }
